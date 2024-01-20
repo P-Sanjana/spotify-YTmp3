@@ -1,10 +1,17 @@
 import { createTheme } from '@mui/material/styles';
+
 import PoppinsBold from '../assets/fonts/PoppinsBold.ttf';
 import PoppinsLight from '../assets/fonts/PoppinsLight.ttf';
 import PoppinsMedium from '../assets/fonts/PoppinsMedium.ttf';
 import PoppinsRegular from '../assets/fonts/PoppinsRegular.ttf';
 import PoppinsSemiBold from '../assets/fonts/PoppinsSemiBold.ttf';
 
+declare module '@mui/material/Typography' {
+  interface TypographyPropsVariantOverrides {
+    subtitle3: true;
+    body: true;
+  }
+}
 declare module '@mui/material/styles/createTypography' {
   interface TypographyOptions {
     subtitle3?: React.CSSProperties;
