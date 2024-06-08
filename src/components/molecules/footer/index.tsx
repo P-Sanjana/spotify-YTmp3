@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Grid } from '@mui/material';
-import styled from '@emotion/styled';
+import { styled } from '@mui/material/styles';
 
 import Typography from '../../atoms/typography';
 import theme from '../../../theme/theme';
@@ -11,15 +11,15 @@ import {
   footerSubText,
 } from '../../../utils/constants';
 
-const FooterBox = styled(Box)(() => ({
+const FooterBox = styled(Box)({
   backgroundColor: theme.palette.primary.main,
   padding: `${theme.spacing(2)} ${theme.spacing(0)} ${theme.spacing(4)} ${theme.spacing(0)}`,
   flexGrow: 1,
-}));
+});
 
-const GridLeftItem = styled(Grid)(() => ({
+const GridLeftItem = styled(Grid)({
   height: '100%',
-}));
+});
 
 const Footer = () => {
   return (

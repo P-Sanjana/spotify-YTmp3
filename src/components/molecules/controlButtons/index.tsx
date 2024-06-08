@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import styled from '@emotion/styled';
+import { styled } from '@mui/material/styles';
 import { Box } from '@mui/material';
 
 import Icon from '../../atoms/icon';
@@ -9,14 +9,14 @@ import previousIcon from '../../../assets/images/previous.svg';
 import nextIcon from '../../../assets/images/next.svg';
 import shuffleIcon from '../../../assets/images/shuffle.svg';
 
-const ButtonBox = styled(Box)(() => ({
+const ButtonBox = styled(Box)({
     backgroundColor: theme.palette.primary["500"],
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     flexGrow: 1,
-}));
+});
 
 const genericIconStyles = {
     width: '32px',
