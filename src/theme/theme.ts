@@ -19,6 +19,14 @@ declare module '@mui/material/styles/createTypography' {
   }
 }
 
+declare module '@mui/material/styles/createPalette' {
+  interface PaletteColor {
+    100?: string;
+    200?: string;
+    500?: string;
+  }
+}
+
 const poppinsBold = {
   fontFamily: 'PoppinsBold',
   src: `url(${PoppinsBold}) format("truetype")`,
