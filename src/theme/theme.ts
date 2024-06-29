@@ -23,6 +23,7 @@ declare module '@mui/material/styles/createPalette' {
   interface PaletteColor {
     100?: string;
     200?: string;
+    300?: string;
     500?: string;
   }
 }
@@ -54,6 +55,7 @@ const theme = createTheme({
       main: '#282828',
       100: '#161616',
       200: '#151515',
+      300: '#373737',
       500: '#000',
     },
     secondary: {
