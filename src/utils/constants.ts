@@ -9,3 +9,4 @@ export const footerOptions = [
   'How to guide',
   'Contact us',
 ];
+export const searchPlaceholder = 'Search for songs, artists, playlists';
