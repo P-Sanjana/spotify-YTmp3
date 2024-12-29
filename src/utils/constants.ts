@@ -10,3 +10,5 @@ export const footerOptions = [
   'Contact us',
 ];
 export const searchPlaceholder = 'Search for songs, artists, playlists';
+export const searchResults = 'Search Results';
+export const searchQueryHeading = 'Showing results for';
