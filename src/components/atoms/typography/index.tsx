@@ -5,7 +5,7 @@ import { SxProps, Theme } from '@mui/system';
 
 type TypographyProps = {
   variant: Variant | 'body3' | 'subtitle3';
-  children: string;
+  children: string | number;
   color: string;
   sx?: SxProps<Theme>;
 };
